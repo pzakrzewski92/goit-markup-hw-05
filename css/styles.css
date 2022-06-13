@@ -634,4 +634,10 @@ color: rgba(255, 255, 255, 1);
     border-radius: 50%;
     background-color: transparent;
     cursor: pointer;
+    
+}
+.is-hidden {
+    opacity: 0;
+    visibility: hidden;
+    pointer-events: none;
 }
