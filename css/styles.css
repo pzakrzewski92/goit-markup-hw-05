@@ -624,3 +624,14 @@ color: rgba(255, 255, 255, 1);
     min-height: 581px;
     background-color: #fff;
 }
+.close-btn {
+    position: absolute;
+    top: 8px;
+    right: 8px;
+    width: 30px;
+    height: 30px;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: 50%;
+    background-color: transparent;
+    cursor: pointer;
+}
