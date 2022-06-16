@@ -60,7 +60,7 @@ font-size: 14px;
 line-height: 16px;
 letter-spacing: 0.02em;
 list-style: none;
-margin-right: 345px;
+margin-right: auto;
     } 
 .menu .item {
 text-decoration: none;
@@ -115,6 +115,10 @@ color: #757575;
 text-decoration: none;
 padding: 10px;
 }
+.menu-contact-link {
+    display: flex;
+    align-items: center;
+}
 .icon-envelope {
     width: 16px;
     height: 12px;
@@ -126,7 +130,7 @@ padding: 10px;
     height: 36px;
     fill: currentColor;
     margin-right: 10px;
-}
+    }
 .icon-envelope:hover, .icon-smartphone:hover {
     color: #2196F3;}
 
