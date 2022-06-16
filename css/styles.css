@@ -636,10 +636,10 @@ color: rgba(255, 255, 255, 1);
     height: 100%;
     background-color:  rgba(0, 0, 0, 0.2);
     transition-property: opacity, transform; 
-transition-duration: 250ms; 
-transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1); 
-transform: scale(100%); 
-opacity: 100%;
+    transition-duration: 250ms; 
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1); 
+    transform: scale(100%); 
+    opacity: 100%;
 }
 .modal {
     position: absolute;
@@ -661,6 +661,11 @@ opacity: 100%;
     border-radius: 50%;
     background-color: transparent;
     cursor: pointer;
+    transition-property: opacity, transform; 
+    transition-duration: 250ms; 
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1); 
+    transform: scale(100%); 
+    opacity: 100%;
     }
 .is-hidden {
     opacity: 0;
