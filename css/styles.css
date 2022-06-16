@@ -23,6 +23,7 @@
     background-color: #fff;
     padding: 25px 0;
     height: 80px;
+    margin-bottom: 10px;
 }
 .header-menu {
     background: #FFFFFF;
@@ -30,8 +31,7 @@
     align-items: center;
     justify-content: space-between;
     list-style: none;
-    flex-wrap: wrap;
-    
+    flex-wrap: wrap; 
 }
 
 a {
@@ -60,7 +60,6 @@ font-size: 14px;
 line-height: 16px;
 letter-spacing: 0.02em;
 list-style: none;
-margin-right: auto;
     } 
 .menu .item {
 text-decoration: none;
@@ -105,7 +104,8 @@ a.item.current-page {
 }
 
 .menu-contact {
-    font-family: 'Roboto';
+display: flex;
+font-family: 'Roboto';
 font-style: normal;
 font-weight: 500;
 font-size: 14px;
@@ -113,12 +113,10 @@ line-height: 16px;
 letter-spacing: 0.02em;
 color: #757575;
 text-decoration: none;
+align-items: center;
 padding: 10px;
 }
-.menu-contact-link {
-    display: flex;
-    align-items: center;
-}
+
 .icon-envelope {
     width: 16px;
     height: 12px;
