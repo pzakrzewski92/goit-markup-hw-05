@@ -79,7 +79,7 @@ a.item.current-page {
 .current-page {
     color: #2196f3;
 }
-.current-page::after,.menu .item::after {
+.current-page::after {
     content: "";
     position: absolute;
     bottom: -1px;
@@ -495,9 +495,9 @@ border-radius: 0px 0px 4px 4px;
 }
 /*animation*/
 .portfolio-list-item-animation {
-    position: relative;
-    top: 0;
-    left: 0;
+    position: absolute;
+    width: 370px;
+    height: 294px;
     color: #fff;
     background-color: #2196f3e5;
     padding: 49px 24px;
@@ -507,7 +507,7 @@ border-radius: 0px 0px 4px 4px;
     letter-spacing: 0.03em;
     transform: translatey(100%);
 }
-animation-time::after, .animation-time {
+.animation-time {
     transition-duration: 250ms;
     transition-property: color, background-color, box-shadow, transform, border-color, opacity, visibility;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
