@@ -515,18 +515,21 @@ border-radius: 0px 0px 4px 4px;
 .portfolio-list-item-img {
     position: relative;
     overflow: hidden;
+    transition-property: translatey(100%);
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 /*animation*/
-.portfolio-list-item-animation:hover,
-.portfolio-list-item-animation:active,
-.portfolio-list-item-animation:focus {
+.portfolio-list-item-img:hover,
+.portfolio-list-item-img:active,
+.portfolio-list-item-img:focus {
   transform: translatey(0);
 }
 .portfolio-list-item-animation {
     position: absolute;
-    top: 0;
-    left: 0;
+    width: 370px;
+    height: 294px;
     color: #fff;
     background-color: #2196f3e5;
     padding: 49px 24px;
