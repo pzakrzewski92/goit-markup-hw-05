@@ -463,6 +463,7 @@ margin-bottom: -30px;
     margin-bottom: 30px;
     max-width: 370px;
 }
+
 .portfolio-list-item figure {
     display: block;
     margin-block-start: 1em;
@@ -497,10 +498,13 @@ border-radius: 0px 0px 4px 4px;
     position: relative;
     overflow: hidden;
 }
-.portfolio-list-item-animation:hover {
-    transform: translateY(-100%);
-}
+
 /*animation*/
+.portfolio-list-item-animation:hover,
+.portfolio-list-item-animation:active,
+.portfolio-list-item-animation:focus {
+  transform: translatey(0);
+}
 .portfolio-list-item-animation {
     position: absolute;
     top: 0;
