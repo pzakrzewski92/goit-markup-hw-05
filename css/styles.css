@@ -512,16 +512,16 @@ border-radius: 0px 0px 4px 4px;
     color: #757575;
     padding: 0px 24px 20px 24px;
 }
-.portfolio-list-item-img {
+.portfolio-list-item {
     position: relative;
     overflow: hidden;
 }
 
 /*animation*/
-.portfolio-list-item:hover,
-.portfolio-list-item:active,
-.portfolio-list-item:focus {
-  transform: translatey(100%);
+.portfolio-list-item-animation:hover,
+.portfolio-list-item-animation:active,
+.portfolio-list-item-animation:focus {
+  transform: translatey(-100%);
 }
 .portfolio-list-item-animation {
     position: absolute;
@@ -534,7 +534,7 @@ border-radius: 0px 0px 4px 4px;
     font-size: 18px;
     line-height: 1.56em;
     letter-spacing: 0.03em;
-    transition-property: translatey(-100%)
+    transition-property: translatey(0)
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
