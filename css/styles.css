@@ -65,7 +65,10 @@ list-style: none;
 text-decoration: none;
 color:#212121;
 }
-.item:hover, .menu-contact:hover {
+.item:hover, .menu-contact:hover,
+.team-list-social-media-item:hover,
+.footer-social-list-item:hover
+ {
     color: #2196F3;
     transition-duration: 250ms;
     transition-property: color, background-color, box-shadow, transform, border-color, opacity, visibility;
@@ -291,6 +294,7 @@ margin-bottom: 30px;
     list-style-type: none;
     margin-bottom: 30px;
     margin-left: 30px;
+    position: relative;
     
 }
 .services-list-item > img {
@@ -309,7 +313,7 @@ margin-bottom: 30px;
     text-transform: uppercase;
     padding: 27px 0;
     justify-content: center;
-    position: relative;
+    position: absolute;
     left: 0px;
     bottom: 0px;
     width: 100%;
