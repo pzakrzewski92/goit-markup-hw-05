@@ -65,6 +65,7 @@ list-style: none;
 text-decoration: none;
 color:#212121;
 }
+/*transition */
 .item:hover, .menu-contact:hover,
 .team-list-social-media-item:hover,
 .footer-social-list-item:hover
